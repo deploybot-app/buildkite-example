@@ -1,0 +1,6 @@
+#!/bin/bash
+set -euo pipefail
+
+echo "On behalf of ${BUILDKITE_BUILD_CREATOR}"
+echo "Deploying ${BUILDKITE_COMMIT} to ${BUILDKITE_GITHUB_DEPLOYMENT_ENVIRONMENT}!"
+

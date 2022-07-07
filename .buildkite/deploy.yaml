@@ -1,0 +1,5 @@
+steps:
+  - label: "🚀"
+    command: ".buildkite/scripts/deploy"
+    concurrency: 1
+    concurrency_group: "deploy"

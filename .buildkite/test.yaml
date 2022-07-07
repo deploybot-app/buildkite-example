@@ -1,0 +1,3 @@
+steps:
+  - label: "🔨"
+    command: ".buildkite/scripts/test"
